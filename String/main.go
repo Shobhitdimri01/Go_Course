@@ -31,6 +31,7 @@ func StringSlice() {
 	s := []string{"a", "b", "c", "d", "e"}
 	s = append(s[0:2], s[3:]...)
 	fmt.Println(s)
+
 }
 
 func Compare() {
